@@ -19,6 +19,14 @@
 		1F4BB8DB193E961A0037E32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4BB8C3193E96190037E32B /* UIKit.framework */; };
 		1F4BB8E3193E961A0037E32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4BB8E1193E961A0037E32B /* InfoPlist.strings */; };
 		1F4BB8E5193E961A0037E32B /* ProyectoPruebaGenericoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BB8E4193E961A0037E32B /* ProyectoPruebaGenericoTests.m */; };
+		EA68329D193FE0DC0013335A /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68329B193FE0DC0013335A /* testViewController.m */; };
+		EA68329E193FE0DC0013335A /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68329C193FE0DC0013335A /* testViewController.xib */; };
+		EA6832A3193FEC610013335A /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6832A1193FEC610013335A /* FirstVC.m */; };
+		EA6832A4193FEC610013335A /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6832A2193FEC610013335A /* FirstVC.xib */; };
+		EA6832B0193FECAC0013335A /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6832AE193FECAC0013335A /* SecondVC.m */; };
+		EA6832B1193FECAC0013335A /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6832AF193FECAC0013335A /* SecondVC.xib */; };
+		EA6832B5193FECBB0013335A /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6832B3193FECBB0013335A /* ThirdVC.m */; };
+		EA6832B6193FECBB0013335A /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6832B4193FECBB0013335A /* ThirdVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		1F4BB8E0193E961A0037E32B /* ProyectoPruebaGenericoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProyectoPruebaGenericoTests-Info.plist"; sourceTree = "<group>"; };
 		1F4BB8E2193E961A0037E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F4BB8E4193E961A0037E32B /* ProyectoPruebaGenericoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProyectoPruebaGenericoTests.m; sourceTree = "<group>"; };
+		EA68329A193FE0DC0013335A /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ProyectoPruebaGenerico/testViewController.h; sourceTree = "<group>"; };
+		EA68329B193FE0DC0013335A /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ProyectoPruebaGenerico/testViewController.m; sourceTree = "<group>"; };
+		EA68329C193FE0DC0013335A /* testViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = testViewController.xib; path = ProyectoPruebaGenerico/testViewController.xib; sourceTree = "<group>"; };
+		EA6832A0193FEC610013335A /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		EA6832A1193FEC610013335A /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		EA6832A2193FEC610013335A /* FirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		EA6832AD193FECAC0013335A /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		EA6832AE193FECAC0013335A /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		EA6832AF193FECAC0013335A /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		EA6832B2193FECBB0013335A /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		EA6832B3193FECBB0013335A /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		EA6832B4193FECBB0013335A /* ThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,10 @@
 		1F4BB8B3193E96190037E32B = {
 			isa = PBXGroup;
 			children = (
+				EA68329F193FEC1F0013335A /* ViewControllers */,
+				EA68329A193FE0DC0013335A /* testViewController.h */,
+				EA68329B193FE0DC0013335A /* testViewController.m */,
+				EA68329C193FE0DC0013335A /* testViewController.xib */,
 				1F4BB8C5193E96190037E32B /* ProyectoPruebaGenerico */,
 				1F4BB8DE193E961A0037E32B /* ProyectoPruebaGenericoTests */,
 				1F4BB8BE193E96190037E32B /* Frameworks */,
@@ -142,6 +166,46 @@
 				1F4BB8E1193E961A0037E32B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA68329F193FEC1F0013335A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6832AC193FEC940013335A /* ThirdVC */,
+				EA6832A6193FEC7A0013335A /* SecondVC */,
+				EA6832A5193FEC690013335A /* FirstVC */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA6832A5193FEC690013335A /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA6832A0193FEC610013335A /* FirstVC.h */,
+				EA6832A1193FEC610013335A /* FirstVC.m */,
+				EA6832A2193FEC610013335A /* FirstVC.xib */,
+			);
+			name = FirstVC;
+			sourceTree = "<group>";
+		};
+		EA6832A6193FEC7A0013335A /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA6832AD193FECAC0013335A /* SecondVC.h */,
+				EA6832AE193FECAC0013335A /* SecondVC.m */,
+				EA6832AF193FECAC0013335A /* SecondVC.xib */,
+			);
+			name = SecondVC;
+			sourceTree = "<group>";
+		};
+		EA6832AC193FEC940013335A /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA6832B2193FECBB0013335A /* ThirdVC.h */,
+				EA6832B3193FECBB0013335A /* ThirdVC.m */,
+				EA6832B4193FECBB0013335A /* ThirdVC.xib */,
+			);
+			name = ThirdVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +283,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6832B1193FECAC0013335A /* SecondVC.xib in Resources */,
 				1F4BB8CA193E96190037E32B /* InfoPlist.strings in Resources */,
+				EA6832A4193FEC610013335A /* FirstVC.xib in Resources */,
+				EA68329E193FE0DC0013335A /* testViewController.xib in Resources */,
+				EA6832B6193FECBB0013335A /* ThirdVC.xib in Resources */,
 				1F4BB8D2193E96190037E32B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6832B5193FECBB0013335A /* ThirdVC.m in Sources */,
+				EA68329D193FE0DC0013335A /* testViewController.m in Sources */,
+				EA6832A3193FEC610013335A /* FirstVC.m in Sources */,
 				1F4BB8D0193E96190037E32B /* AppDelegate.m in Sources */,
+				EA6832B0193FECAC0013335A /* SecondVC.m in Sources */,
 				1F4BB8CC193E96190037E32B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +434,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProyectoPruebaGenerico/ProyectoPruebaGenerico-Prefix.pch";
 				INFOPLIST_FILE = "ProyectoPruebaGenerico/ProyectoPruebaGenerico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,7 +449,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProyectoPruebaGenerico/ProyectoPruebaGenerico-Prefix.pch";
 				INFOPLIST_FILE = "ProyectoPruebaGenerico/ProyectoPruebaGenerico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +515,7 @@
 				1F4BB8EA193E961A0037E32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F4BB8EB193E961A0037E32B /* Build configuration list for PBXNativeTarget "ProyectoPruebaGenericoTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +524,7 @@
 				1F4BB8ED193E961A0037E32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
