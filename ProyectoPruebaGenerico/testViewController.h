@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstVC.h"
+#import "SecondVC.h"
+#import "ThirdVC.h"
 
 @interface testViewController : UIViewController<UITabBarControllerDelegate>
 
 -(IBAction)button:(id)sender;
-@property (nonatomic, retain) UITabBarController *tab;
 @end

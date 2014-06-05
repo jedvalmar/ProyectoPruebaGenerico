@@ -19,7 +19,27 @@
     [self.window makeKeyAndVisible];
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:main];
-    self.window.rootViewController = navController;
+    
+    UITabBarController * tab = [[UITabBarController alloc] init];
+    
+    
+    FirstVC *fvc=[[FirstVC alloc]initWithNibName:@"FirstVC" bundle:[NSBundle mainBundle]];
+    fvc.title=@"First";
+    fvc.tabBarItem.title = @"F";
+    
+    
+    SecondVC *svc=[[SecondVC alloc]initWithNibName:@"SecondVC" bundle:[NSBundle mainBundle]];
+    svc.title=@"Second";
+    svc.tabBarItem.title = @"S";
+    
+    //ThirdViewController
+    ThirdVC *tvc=[[ThirdVC alloc]initWithNibName:@"ThirdVC" bundle:[NSBundle mainBundle]];
+    tvc.title=@"Third";
+    tvc.tabBarItem.title = @"T";
+    
+    [tab setViewControllers:@[navController,fvc, svc, tvc]];
+    
+    self.window.rootViewController = tab;
     return YES;
 }
 

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E8E0BCCE-6F7F-4612-88FE-A08357B8CDB0</string>
+	<string>52E00F5B-AC89-43B7-9A31-941239E8EF24</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ProyectoPruebaGenerico</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>74590076-67A2-496B-8F77-912B88606AB0</key>
-		<string>https://github.com/fawkes32/ProyectoPruebaGenerico.git</string>
+		<key>FF0CEA07-6E1C-4263-B854-5B037EB58EFA</key>
+		<string>https://github.com/Sheepow/ProyectoPruebaGenerico.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ProyectoPruebaGenerico.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>74590076-67A2-496B-8F77-912B88606AB0</key>
+		<key>FF0CEA07-6E1C-4263-B854-5B037EB58EFA</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/fawkes32/ProyectoPruebaGenerico.git</string>
+	<string>https://github.com/Sheepow/ProyectoPruebaGenerico.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>74590076-67A2-496B-8F77-912B88606AB0</string>
+	<string>FF0CEA07-6E1C-4263-B854-5B037EB58EFA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>74590076-67A2-496B-8F77-912B88606AB0</string>
+			<string>FF0CEA07-6E1C-4263-B854-5B037EB58EFA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ProyectoPruebaGenerico</string>
 		</dict>
