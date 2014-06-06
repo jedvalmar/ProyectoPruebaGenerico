@@ -14,8 +14,7 @@
 @end
 
 @implementation testViewController
-
-
+@synthesize btnHello;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,8 +27,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [btnHello setTitle:@"Stop" forState:UIControlStateNormal];
+    //btnHello.frame= CGRectMake(10,10, 150, 30);
+    btnHello.userInteractionEnabled = YES;
+    [btnHello setTintColor:(UIColor.redColor)];
+    [btnHello addTarget:self action:@selector(printToConsole) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view from its nib.
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -37,10 +43,9 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)button:(id)sender{
-    NSLog(@"Hello World");
+-(void) printToConsole{
+    NSLog(@"Hello");
 }
-
 
 
 @end

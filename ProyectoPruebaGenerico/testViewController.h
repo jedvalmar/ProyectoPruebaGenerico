@@ -12,6 +12,12 @@
 #import "ThirdVC.h"
 
 @interface testViewController : UIViewController<UITabBarControllerDelegate>
+{
+    IBOutlet UIButton * btnHello;
+}
+@property (retain, nonatomic) IBOutlet UIButton *btnHello;
 
--(IBAction)button:(id)sender;
+
+@property NSInteger count;
+//-(IBAction)button:(id)sender;
 @end

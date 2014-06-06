@@ -20,9 +20,9 @@
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:main];
     
-    UITabBarController * tab = [[UITabBarController alloc] init];
+    UITabBarController *tab = [[UITabBarController alloc] init];
     
-    main.title = @"Main View";
+    main.title = @"MainView";
     main.tabBarItem.title = @"N";
     
     FirstVC *fvc=[[FirstVC alloc]initWithNibName:@"FirstVC" bundle:[NSBundle mainBundle]];
