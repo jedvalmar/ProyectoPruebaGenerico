@@ -22,6 +22,8 @@
     
     UITabBarController * tab = [[UITabBarController alloc] init];
     
+    main.title = @"Main View";
+    main.tabBarItem.title = @"N";
     
     FirstVC *fvc=[[FirstVC alloc]initWithNibName:@"FirstVC" bundle:[NSBundle mainBundle]];
     fvc.title=@"First";
