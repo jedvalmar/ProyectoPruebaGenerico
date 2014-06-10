@@ -7,6 +7,7 @@
 //
 
 #import "testViewController.h"
+#import "CoffeeVC.h"
 
 
 @interface testViewController ()
@@ -32,7 +33,7 @@
     //btnHello.frame= CGRectMake(10,10, 150, 30);
     btnHello.userInteractionEnabled = YES;
     [btnHello setTintColor:(UIColor.redColor)];
-    [btnHello addTarget:self action:@selector(printToConsole) forControlEvents:UIControlEventTouchUpInside];
+    [btnHello addTarget:self action:@selector(showCoffee) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -43,8 +44,11 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) printToConsole{
-    NSLog(@"Hello");
+-(void) showCoffee{
+
+    CoffeeVC *coffee = [[CoffeeVC alloc] init];
+    [coffee.navigationItem setTitle:@"Coffee View"];
+    [self.navigationController pushViewController:coffee animated:YES];
 }
 
 

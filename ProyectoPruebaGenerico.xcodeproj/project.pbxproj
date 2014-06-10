@@ -19,6 +19,9 @@
 		1F4BB8DB193E961A0037E32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4BB8C3193E96190037E32B /* UIKit.framework */; };
 		1F4BB8E3193E961A0037E32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4BB8E1193E961A0037E32B /* InfoPlist.strings */; };
 		1F4BB8E5193E961A0037E32B /* ProyectoPruebaGenericoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BB8E4193E961A0037E32B /* ProyectoPruebaGenericoTests.m */; };
+		EA4A9F5B194166DA0063B929 /* CoffeeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A9F59194166DA0063B929 /* CoffeeVC.m */; };
+		EA4A9F5C194166DA0063B929 /* CoffeeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4A9F5A194166DA0063B929 /* CoffeeVC.xib */; };
+		EA4A9F5F19416C660063B929 /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4A9F5E19416C660063B929 /* coffee.jpg */; };
 		EA68329D193FE0DC0013335A /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68329B193FE0DC0013335A /* testViewController.m */; };
 		EA68329E193FE0DC0013335A /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68329C193FE0DC0013335A /* testViewController.xib */; };
 		EA6832A3193FEC610013335A /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6832A1193FEC610013335A /* FirstVC.m */; };
@@ -56,6 +59,10 @@
 		1F4BB8E0193E961A0037E32B /* ProyectoPruebaGenericoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProyectoPruebaGenericoTests-Info.plist"; sourceTree = "<group>"; };
 		1F4BB8E2193E961A0037E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F4BB8E4193E961A0037E32B /* ProyectoPruebaGenericoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProyectoPruebaGenericoTests.m; sourceTree = "<group>"; };
+		EA4A9F58194166DA0063B929 /* CoffeeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeVC.h; sourceTree = "<group>"; };
+		EA4A9F59194166DA0063B929 /* CoffeeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeVC.m; sourceTree = "<group>"; };
+		EA4A9F5A194166DA0063B929 /* CoffeeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoffeeVC.xib; sourceTree = "<group>"; };
+		EA4A9F5E19416C660063B929 /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
 		EA68329A193FE0DC0013335A /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = ProyectoPruebaGenerico/testViewController.h; sourceTree = "<group>"; };
 		EA68329B193FE0DC0013335A /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = ProyectoPruebaGenerico/testViewController.m; sourceTree = "<group>"; };
 		EA68329C193FE0DC0013335A /* testViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = testViewController.xib; path = ProyectoPruebaGenerico/testViewController.xib; sourceTree = "<group>"; };
@@ -97,6 +104,7 @@
 		1F4BB8B3193E96190037E32B = {
 			isa = PBXGroup;
 			children = (
+				EA4A9F6019416C6A0063B929 /* Images */,
 				EA68329F193FEC1F0013335A /* ViewControllers */,
 				EA68329A193FE0DC0013335A /* testViewController.h */,
 				EA68329B193FE0DC0013335A /* testViewController.m */,
@@ -168,9 +176,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EA4A9F5D194166DF0063B929 /* CoffeeVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA4A9F58194166DA0063B929 /* CoffeeVC.h */,
+				EA4A9F59194166DA0063B929 /* CoffeeVC.m */,
+				EA4A9F5A194166DA0063B929 /* CoffeeVC.xib */,
+			);
+			name = CoffeeVC;
+			sourceTree = "<group>";
+		};
+		EA4A9F6019416C6A0063B929 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA4A9F5E19416C660063B929 /* coffee.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		EA68329F193FEC1F0013335A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA4A9F5D194166DF0063B929 /* CoffeeVC */,
 				EA6832AC193FEC940013335A /* ThirdVC */,
 				EA6832A6193FEC7A0013335A /* SecondVC */,
 				EA6832A5193FEC690013335A /* FirstVC */,
@@ -284,6 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6832B1193FECAC0013335A /* SecondVC.xib in Resources */,
+				EA4A9F5F19416C660063B929 /* coffee.jpg in Resources */,
+				EA4A9F5C194166DA0063B929 /* CoffeeVC.xib in Resources */,
 				1F4BB8CA193E96190037E32B /* InfoPlist.strings in Resources */,
 				EA6832A4193FEC610013335A /* FirstVC.xib in Resources */,
 				EA68329E193FE0DC0013335A /* testViewController.xib in Resources */,
@@ -310,6 +339,7 @@
 				EA6832B5193FECBB0013335A /* ThirdVC.m in Sources */,
 				EA68329D193FE0DC0013335A /* testViewController.m in Sources */,
 				EA6832A3193FEC610013335A /* FirstVC.m in Sources */,
+				EA4A9F5B194166DA0063B929 /* CoffeeVC.m in Sources */,
 				1F4BB8D0193E96190037E32B /* AppDelegate.m in Sources */,
 				EA6832B0193FECAC0013335A /* SecondVC.m in Sources */,
 				1F4BB8CC193E96190037E32B /* main.m in Sources */,

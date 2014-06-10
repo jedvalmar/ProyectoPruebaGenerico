@@ -21,6 +21,7 @@
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:main];
     
     UITabBarController *tab = [[UITabBarController alloc] init];
+    [navController setNavigationBarHidden:NO animated:YES];
     
     main.title = @"MainView";
     main.tabBarItem.title = @"N";
